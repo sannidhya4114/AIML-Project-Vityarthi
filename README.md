@@ -17,4 +17,17 @@ It provides both a binary classification (Detected/Not Detected) and a specific 
 4. heart.csv: The base dataset used for comparative data visualization and training reference.
 
 # Installation
-1. Clone the repository:
+1. Clone the repository in your local machine: git clone https://github.com/sannidhya4114/AIML-Project-Vityarthi.git
+2. Enter in your file AIML-Project-Vityarthi: cd AIML-Project-Vityarthi
+3. Install Dependencies: Ensure you have Python 3.x installed, then run: pip install pandas joblib matplotlib seaborn
+
+# How to Use
+1. Run the application python Main.py
+2. Input Data: Enter the clinical values when prompted (e.g., Age, Sex, Chest Pain Type, etc.).
+3. View Results: The script will display:
+
+   Diagnosis: "DISEASE DETECTED" or "NO DISEASE DETECTED."
+
+   Risk Probability: A calculated percentage.
+
+   Comparative Analysis: A popup window showing how the user's data compares to the average metrics in the dataset.
